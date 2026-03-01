@@ -10,7 +10,7 @@ COIL - Banking System
 - Alex Testa – testaa2@udayton.edu  
 - Bennett Moore – mooreb26@udayton.edu  
 - Tidiane Dia – diat01@udayton.edu  
-- Paige Myers  – myersp5@udayton.edu  
+- Paige Myers  – myersp5@udayton.edu  (GitHub: paigemyers)
 - Dhruv Vijaykumar Patel – pateld88@udayton.edu
 
 ## Overview
