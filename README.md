@@ -11,7 +11,7 @@ COIL - Banking System
 - Bennett Moore – mooreb26@udayton.edu  
 - Tidiane Dia – diat01@udayton.edu  
 - Paige Myers  – myersp5@udayton.edu  (GitHub: paigemyers)
-- Dhruv Vijaykumar Patel – pateld88@udayton.edu
+- Dhruv Vijaykumar Patel – pateld88@udayton.edu (GitHub: Patel88-Drew)
 
 ## Overview
 Design, implement, and deploy a **cloud-based intelligent system**
