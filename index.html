@@ -3,66 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="root.css" />
-  <title>Our Team</title>
+  <title>AI Fraud Detection System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header>
-    <h1>Meet <span>Our Team</span></h1>
-    <p>The people behind this project</p>
+  <header class="top-nav">
+    <a href="./index.html" class="nav-link">Home</a>
+    <!-- TODO: add link to deployed microservice frontend -->
+    <!-- <a href="./fraud-check.html" class="nav-button">Fraud Check MicroService</a> -->
   </header>
-  
-  <main>
-    <div class="team-grid">
-      <div class="card">
-        <div class="card-avatar">
-          <img src="assets/profiles/Bennett.jpg" alt="Bennett Moore profile photo" />
+
+  <main class="page-shell">
+    <section class="hero">
+      <h1>Project Overview</h1>
+      <p>
+        Our team is building an AI-powered fraud detection system for banking transactions. The platform analyzes
+        transaction behavior in real time to flag suspicious activity, reduce false positives, and help banks respond
+        faster to potential fraud cases.
+      </p>
+      <p>
+        This project is being developed by university students in Vietnam, with a focus on practical deployment,
+        scalable cloud architecture, and explainable model outputs so analysts can trust and validate each prediction.
+      </p>
+      <!-- TODO: add link to deployed microservice frontend -->
+      <a class="primary-cta" href="#">Open Fraud Check MicroService</a>
+    </section>
+
+    <section class="demo-grid">
+      <article class="demo-card">
+        <h2>System Demo</h2>
+        <div class="video-placeholder" role="img" aria-label="System demo preview">
+          <span>Video Preview</span>
         </div>
-        <h2>Bennett Moore</h2>
-        <p class="role">Project Lead</p>
-        <p class="bio">Student</p>
-      </div>
-      
-      <div class="card">
-        <div class="card-avatar">
-          <img src="assets/profiles/Alex.png" alt="Alex Testa profile photo" />
+      </article>
+      <article class="demo-card">
+        <h2>API Demo</h2>
+        <div class="video-placeholder" role="img" aria-label="API demo preview">
+          <span>Video Preview</span>
         </div>
-        <h2>Alex Testa</h2>
-        <p class="role">Developer</p>
-        <p class="bio">Student</p>
-      </div>
-      
-      <div class="card">
-        <div class="card-avatar">
-          <img src="assets/profiles/Tidiane.jpg" alt="Tidiane Dia profile photo" />
-        </div>
-        <h2>Tidiane Dia</h2>
-        <p class="role">Designer</p>
-        <p class="bio">Student</p>
-      </div>
-      
-      <div class="card">
-        <div class="card-avatar">
-         <img src="assets/profiles/Paige.jpg" alt="Paige Myers profile photo"/>
-        </div>
-        <h2> Paige Myers</h2>
-        <p class="role">Developer/Designer</p>
-        <p class="bio">Student</p>
-      </div>
-      
-      <div class="card">
-        <div class="card-avatar">
-          <img src="assets/profiles/Dhruv.jpg" alt="Dhruv Patel profile photo" />
-        </div>
-        <h2>Dhruv Vijaykumar Patel</h2>
-        <p class="role">QA</p>
-        <p class="bio">Student</p>
-      </div>
-    </div>
+      </article>
+    </section>
+
+  <section class="team-grid">
+      <article class="profile-card">
+        <img src="assets/profiles/Bennett.jpg" alt="Bennett Moore profile photo" />
+        <h3>Bennett Moore</h3>
+        <p>Project Lead</p>
+      </article>
+      <article class="profile-card">
+        <img src="assets/profiles/Alex.png" alt="Alex Testa profile photo" />
+        <h3>Alex Testa</h3>
+        <p>Developer</p>
+      </article>
+      <article class="profile-card">
+        <img src="assets/profiles/Tidiane.jpg" alt="Tidiane Dia profile photo" />
+        <h3>Tidiane Dia</h3>
+        <p>Designer</p>
+      </article>
+      <article class="profile-card">
+        <img src="assets/profiles/Paige.jpg" alt="Paige Myers profile photo" />
+        <h3>Paige Myers</h3>
+        <p>Developer/Designer</p>
+      </article>
+      <article class="profile-card">
+        <img src="assets/profiles/Dhruv.jpg" alt="Dhruv Patel profile photo" />
+        <h3>Dhruv Patel</h3>
+        <p>QA Engineer</p>
+      </article>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; Spring 2026 COIL Project</p>
-  </footer>
+  <script>
+    // Keep anchor placeholders that point to "#" from jumping to the top with smooth scrolling.
+    document.querySelectorAll('a[href="#"]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
 </body>
 </html>
