@@ -6,6 +6,10 @@
 
 > Department of Computer Science
 
+- **Deployed website:** https://ud-cps449-coilproject.github.io/
+- **Deployed demo/frontend:** https://coil-team2-sp26-frontend-g5ana9fufsbjh4fa.canadacentral-01.azurewebsites.net/
+- **Deployed backend:** https://coil-team2-sp26-backend.azurewebsites.net/
+
 ## Team Members
 
 See [CONTRIBUTORS.md](./CONTRIBUTORS.md) for a list of the contributors and their total contributions.
