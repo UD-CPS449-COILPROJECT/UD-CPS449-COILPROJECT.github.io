@@ -149,6 +149,14 @@ body {
   font-weight: 600;
 }
 
+.demo-video {
+  width: 100%;
+  min-height: 210px;
+  border: 1px solid #354559;
+  border-radius: 10px;
+  background: #0c1118;
+}
+
 /* Team grid and profile cards. */
 .team-grid {
   margin-top: 52px;
